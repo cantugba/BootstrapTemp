@@ -1,0 +1,128 @@
+html,
+body
+{
+    height: 100%;
+}
+
+
+@media (max-width: 740px) {
+    .left
+     {
+        height: 100vh;
+    }
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top:20px;
+}
+
+.transbox {
+    z-index: 1;
+    position: fixed;
+    height:100%;
+    background-color: #98f5ff;
+    opacity: 0.5;
+
+
+}
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    background: url("../img/5.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+p{
+    z-index: 3;
+    font-family: Arial;
+    color: ghostwhite;
+    font-weight: bold;
+    font-size: 90px;
+}
+h2{
+    z-index: 2;
+    font-family: Arial;
+    color: ghostwhite;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h4{
+    letter-spacing: 5px;
+    color: #343a40;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    background-color:ghostwhite ;
+    position: fixed;
+
+}
+
+input[type="text"] {
+    border-radius: 50px 50px;
+    width: 400px;
+    height: 50px;
+    padding-right: 0px;
+
+
+}
+
+
+.center{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-secondary{
+    border-radius: 50px;
+    height: 50px;
+    background-color:darkslategray;
+    border: 0px;
+
+}
+
+.btn-danger{
+    border:0;
+    border-radius: 50px;
+    background-color: darkslategray;
+}
+
+.fb{
+    background-color: ghostwhite;
+    border-color: ghostwhite;
+}
+
+.tw{
+    background-color: ghostwhite;
+    border-color: ghostwhite;
+}
+
+.in{
+    background-color: ghostwhite;
+    border-color: ghostwhite;
+}
