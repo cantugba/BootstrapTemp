@@ -48,7 +48,7 @@ body{
 p{
     z-index: 3;
     font-family: Arial;
-    color: ghostwhite;
+    color: #ffffff;
     font-weight: bold;
     font-size: 90px;
 }
@@ -111,17 +111,7 @@ input[type="text"] {
     border-radius: 50px;
     background-color: darkslategray;}
 
-.fb{
-    background-color: ghostwhite;
-    border-color: ghostwhite;
-}
-
-.tw{
-    background-color: ghostwhite;
-    border-color: ghostwhite;
-}
-
-.in{
+.fb,.in,.tw{
     background-color: ghostwhite;
     border-color: ghostwhite;
 }
