@@ -40,7 +40,7 @@ body{
     justify-content: center;
     align-items: center;
     left: 0;
-    background: url("../img/5.jpg") no-repeat center center fixed;
+    background: url("../img/3.jpg") no-repeat center center fixed;
     background-size: cover;
 
 }
@@ -109,8 +109,7 @@ input[type="text"] {
 .btn-danger{
     border:0;
     border-radius: 50px;
-    background-color: darkslategray;
-}
+    background-color: darkslategray;}
 
 .fb{
     background-color: ghostwhite;
