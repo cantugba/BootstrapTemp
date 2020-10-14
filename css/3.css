@@ -1,5 +1,4 @@
-html,
-body
+html
 {
     height: 100%;
 }
@@ -26,15 +25,6 @@ body{
     padding-top:20px;
 }
 
-.transbox {
-    z-index: 1;
-    position: fixed;
-    height:100%;
-    background-color: #98f5ff;
-    opacity: 0.5;
-
-
-}
 .left {
     display: flex;
     justify-content: center;
