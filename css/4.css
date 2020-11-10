@@ -1,0 +1,112 @@
+html,
+body,
+header,
+.view
+{
+    height: 100%;
+}
+
+@media(max-width: 740px) {
+    html,
+    body,
+    header,
+    .view
+    {
+        height: 100vh;
+    }
+
+}
+body{
+    background-image: url("../img/4.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+h3, h4 {
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    color: ghostwhite;
+
+}
+
+.container-fluid{
+height: auto;
+}
+.container {
+  padding: 35px;
+}
+.containers{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 50px;
+}
+hr{
+    border-top: 4px solid ghostwhite;
+    width: 60%;
+    line-height: 20%;
+}
+
+.pFont{
+    color: ghostwhite;
+    letter-spacing: -1px;
+    font-size: 50px;
+}
+
+div.navbar-header a{
+    font-size: 20px;
+    color: #fdfeff; !important;
+    font-weight: bold;
+
+}
+.btn{
+    margin-left: 20px;
+    border-radius: 1px;
+    border-style:solid;
+    border-width: medium;
+    width: 25%;
+
+}
+.btn-w{
+    height: 90%;
+    width:80%;
+    border-style:solid;
+    background-color: transparent;
+    border-width: medium;
+}
+
+.fa-telegram{
+    size: 50px;
+}
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #0d1515;
+    border: 0;
+    letter-spacing: 4px;
+    opacity: 0.8;
+    z-index: -1;
+
+}
+
+.btn:hover {
+    background-color: #082474;
+    color: white;
+}
+.btn-w:hover{
+    background-color: #082474;
+    color: white;
+}
+
+a{
+    color: white;
+    margin-left:3%;
+
+}
